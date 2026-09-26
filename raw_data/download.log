@@ -1,0 +1,61 @@
+nohup: ignoring input
+SRR6671104 zaten tamamlanmis, atlaniyor.
+SRR6671105 zaten tamamlanmis, atlaniyor.
+SRR6671106 zaten tamamlanmis, atlaniyor.
+SRR6671107 zaten tamamlanmis, atlaniyor.
+SRR6671108 zaten tamamlanmis, atlaniyor.
+SRR6671109 zaten tamamlanmis, atlaniyor.
+SRR6671110 zaten tamamlanmis, atlaniyor.
+SRR6671111 zaten tamamlanmis, atlaniyor.
+SRR6671112 zaten tamamlanmis, atlaniyor.
+SRR6671113 zaten tamamlanmis, atlaniyor.
+SRR6671114 indiriliyor...
+2026-09-26T08:09:47 prefetch.3.4.1: 1) Resolving 'SRR6671114'...
+2026-09-26T08:09:49 prefetch.3.4.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-09-26T08:09:50 prefetch.3.4.1: 1) 'SRR6671114' is found locally 
+disk-limit exeeded!
+to see limits: re-run with '-x' option.
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/atakan/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+fasterq-dump quit with error code 3
+SRR6671115 indiriliyor...
+2026-09-26T08:09:51 prefetch.3.4.1: 1) Resolving 'SRR6671115'...
+2026-09-26T08:09:53 prefetch.3.4.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-09-26T08:09:54 prefetch.3.4.1: 1) 'SRR6671115' is found locally 
+disk-limit exeeded!
+to see limits: re-run with '-x' option.
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/atakan/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+fasterq-dump quit with error code 3
+SRR6671116 indiriliyor...
+2026-09-26T08:09:55 prefetch.3.4.1: 1) Resolving 'SRR6671116'...
+2026-09-26T08:09:57 prefetch.3.4.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-09-26T08:09:57 prefetch.3.4.1: 1) Downloading 'SRR6671116'...
+2026-09-26T08:09:57 prefetch.3.4.1:  SRA Normalized Format file is being retrieved
+2026-09-26T08:09:57 prefetch.3.4.1:  Downloading via HTTPS...
+2026-09-26T08:13:02 prefetch.3.4.1:  HTTPS download succeed
+2026-09-26T08:13:07 prefetch.3.4.1:  'SRR6671116' is valid: 3476068769 bytes were streamed from 3476060477
+2026-09-26T08:13:07 prefetch.3.4.1: 1) 'SRR6671116' was downloaded successfully
+disk-limit exeeded!
+to see limits: re-run with '-x' option.
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/home/atakan/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+fasterq-dump quit with error code 3

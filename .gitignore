@@ -1,0 +1,7 @@
+ref/
+raw_data/*.fastq
+raw_data/*.sra
+raw_data/SRR*/
+results/*.bam
+__pycache__/
+*.pyc

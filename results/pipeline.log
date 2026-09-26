@@ -1,0 +1,1026 @@
+nohup: ignoring input
+SRR6671104 hizalaniyor...
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+31190694 reads; of these:
+  31190694 (100.00%) were paired; of these:
+    2085843 (6.69%) aligned concordantly 0 times
+    22492566 (72.11%) aligned concordantly exactly 1 time
+    6612285 (21.20%) aligned concordantly >1 times
+    ----
+    2085843 pairs aligned concordantly 0 times; of these:
+      156119 (7.48%) aligned discordantly 1 time
+    ----
+    1929724 pairs aligned 0 times concordantly or discordantly; of these:
+      3859448 mates make up the pairs; of these:
+        2094876 (54.28%) aligned 0 times
+        1442612 (37.38%) aligned exactly 1 time
+        321960 (8.34%) aligned >1 times
+96.64% overall alignment rate
+[bam_sort_core] merging from 10 files and 4 in-memory blocks...
+SRR6671104 icin sayim yapiliyor...
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                                                                            ||
+||                           SRR6671104.bam                                   ||
+||                                                                            ||
+||             Output file : SRR6671104_counts.txt                            ||
+||                 Summary : SRR6671104_counts.txt.summary                    ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : Homo_sapiens.GRCh38.110.gtf (GTF)                ||
+||      Dir for temp files : results                                          ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.110.gtf ...                       ||
+||    Features : 1649677                                                      ||
+||    Meta-features : 62754                                                   ||
+||    Chromosomes/contigs : 47                                                ||
+||                                                                            ||
+|| Process BAM file SRR6671104.bam...                                         ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 109239013                                            ||
+||    Successfully assigned alignments : 36100019 (33.0%)                     ||
+||    Running time : 0.36 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "results/SRR6671104_coun  ||
+|| ts.txt.summary"                                                            ||
+||                                                                            ||
+\\============================================================================//
+
+SRR6671104 ham dosyalari siliniyor (yer acmak icin)...
+SRR6671104 TAMAMLANDI.
+SRR6671105 hizalaniyor...
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+30464411 reads; of these:
+  30464411 (100.00%) were paired; of these:
+    2855138 (9.37%) aligned concordantly 0 times
+    25929192 (85.11%) aligned concordantly exactly 1 time
+    1680081 (5.51%) aligned concordantly >1 times
+    ----
+    2855138 pairs aligned concordantly 0 times; of these:
+      203206 (7.12%) aligned discordantly 1 time
+    ----
+    2651932 pairs aligned 0 times concordantly or discordantly; of these:
+      5303864 mates make up the pairs; of these:
+        2969390 (55.99%) aligned 0 times
+        1976811 (37.27%) aligned exactly 1 time
+        357663 (6.74%) aligned >1 times
+95.13% overall alignment rate
+[bam_sort_core] merging from 6 files and 4 in-memory blocks...
+SRR6671105 icin sayim yapiliyor...
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                                                                            ||
+||                           SRR6671105.bam                                   ||
+||                                                                            ||
+||             Output file : SRR6671105_counts.txt                            ||
+||                 Summary : SRR6671105_counts.txt.summary                    ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : Homo_sapiens.GRCh38.110.gtf (GTF)                ||
+||      Dir for temp files : results                                          ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.110.gtf ...                       ||
+||    Features : 1649677                                                      ||
+||    Meta-features : 62754                                                   ||
+||    Chromosomes/contigs : 47                                                ||
+||                                                                            ||
+|| Process BAM file SRR6671105.bam...                                         ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 69290321                                             ||
+||    Successfully assigned alignments : 42629312 (61.5%)                     ||
+||    Running time : 0.26 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "results/SRR6671105_coun  ||
+|| ts.txt.summary"                                                            ||
+||                                                                            ||
+\\============================================================================//
+
+SRR6671105 ham dosyalari siliniyor (yer acmak icin)...
+SRR6671105 TAMAMLANDI.
+SRR6671106 hizalaniyor...
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+26582487 reads; of these:
+  26582487 (100.00%) were paired; of these:
+    2353855 (8.85%) aligned concordantly 0 times
+    22357475 (84.11%) aligned concordantly exactly 1 time
+    1871157 (7.04%) aligned concordantly >1 times
+    ----
+    2353855 pairs aligned concordantly 0 times; of these:
+      151114 (6.42%) aligned discordantly 1 time
+    ----
+    2202741 pairs aligned 0 times concordantly or discordantly; of these:
+      4405482 mates make up the pairs; of these:
+        2455598 (55.74%) aligned 0 times
+        1692954 (38.43%) aligned exactly 1 time
+        256930 (5.83%) aligned >1 times
+95.38% overall alignment rate
+[bam_sort_core] merging from 6 files and 4 in-memory blocks...
+SRR6671106 icin sayim yapiliyor...
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                                                                            ||
+||                           SRR6671106.bam                                   ||
+||                                                                            ||
+||             Output file : SRR6671106_counts.txt                            ||
+||                 Summary : SRR6671106_counts.txt.summary                    ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : Homo_sapiens.GRCh38.110.gtf (GTF)                ||
+||      Dir for temp files : results                                          ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.110.gtf ...                       ||
+||    Features : 1649677                                                      ||
+||    Meta-features : 62754                                                   ||
+||    Chromosomes/contigs : 47                                                ||
+||                                                                            ||
+|| Process BAM file SRR6671106.bam...                                         ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 63984952                                             ||
+||    Successfully assigned alignments : 37208801 (58.2%)                     ||
+||    Running time : 0.24 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "results/SRR6671106_coun  ||
+|| ts.txt.summary"                                                            ||
+||                                                                            ||
+\\============================================================================//
+
+SRR6671106 ham dosyalari siliniyor (yer acmak icin)...
+SRR6671106 TAMAMLANDI.
+SRR6671107 hizalaniyor...
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+21081615 reads; of these:
+  21081615 (100.00%) were paired; of these:
+    1429837 (6.78%) aligned concordantly 0 times
+    19096492 (90.58%) aligned concordantly exactly 1 time
+    555286 (2.63%) aligned concordantly >1 times
+    ----
+    1429837 pairs aligned concordantly 0 times; of these:
+      171152 (11.97%) aligned discordantly 1 time
+    ----
+    1258685 pairs aligned 0 times concordantly or discordantly; of these:
+      2517370 mates make up the pairs; of these:
+        1356026 (53.87%) aligned 0 times
+        1067493 (42.41%) aligned exactly 1 time
+        93851 (3.73%) aligned >1 times
+96.78% overall alignment rate
+[bam_sort_core] merging from 4 files and 4 in-memory blocks...
+SRR6671107 icin sayim yapiliyor...
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                                                                            ||
+||                           SRR6671107.bam                                   ||
+||                                                                            ||
+||             Output file : SRR6671107_counts.txt                            ||
+||                 Summary : SRR6671107_counts.txt.summary                    ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : Homo_sapiens.GRCh38.110.gtf (GTF)                ||
+||      Dir for temp files : results                                          ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.110.gtf ...                       ||
+||    Features : 1649677                                                      ||
+||    Meta-features : 62754                                                   ||
+||    Chromosomes/contigs : 47                                                ||
+||                                                                            ||
+|| Process BAM file SRR6671107.bam...                                         ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 44193218                                             ||
+||    Successfully assigned alignments : 31905392 (72.2%)                     ||
+||    Running time : 0.17 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "results/SRR6671107_coun  ||
+|| ts.txt.summary"                                                            ||
+||                                                                            ||
+\\============================================================================//
+
+SRR6671107 ham dosyalari siliniyor (yer acmak icin)...
+SRR6671107 TAMAMLANDI.
+SRR6671108 hizalaniyor...
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+25110916 reads; of these:
+  25110916 (100.00%) were paired; of these:
+    2367557 (9.43%) aligned concordantly 0 times
+    21397753 (85.21%) aligned concordantly exactly 1 time
+    1345606 (5.36%) aligned concordantly >1 times
+    ----
+    2367557 pairs aligned concordantly 0 times; of these:
+      171673 (7.25%) aligned discordantly 1 time
+    ----
+    2195884 pairs aligned 0 times concordantly or discordantly; of these:
+      4391768 mates make up the pairs; of these:
+        2428530 (55.30%) aligned 0 times
+        1712186 (38.99%) aligned exactly 1 time
+        251052 (5.72%) aligned >1 times
+95.16% overall alignment rate
+[bam_sort_core] merging from 5 files and 4 in-memory blocks...
+SRR6671108 icin sayim yapiliyor...
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                                                                            ||
+||                           SRR6671108.bam                                   ||
+||                                                                            ||
+||             Output file : SRR6671108_counts.txt                            ||
+||                 Summary : SRR6671108_counts.txt.summary                    ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : Homo_sapiens.GRCh38.110.gtf (GTF)                ||
+||      Dir for temp files : results                                          ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.110.gtf ...                       ||
+||    Features : 1649677                                                      ||
+||    Meta-features : 62754                                                   ||
+||    Chromosomes/contigs : 47                                                ||
+||                                                                            ||
+|| Process BAM file SRR6671108.bam...                                         ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 57034935                                             ||
+||    Successfully assigned alignments : 35524018 (62.3%)                     ||
+||    Running time : 0.21 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "results/SRR6671108_coun  ||
+|| ts.txt.summary"                                                            ||
+||                                                                            ||
+\\============================================================================//
+
+SRR6671108 ham dosyalari siliniyor (yer acmak icin)...
+SRR6671108 TAMAMLANDI.
+SRR6671109 hizalaniyor...
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+29543145 reads; of these:
+  29543145 (100.00%) were paired; of these:
+    2554887 (8.65%) aligned concordantly 0 times
+    25411458 (86.01%) aligned concordantly exactly 1 time
+    1576800 (5.34%) aligned concordantly >1 times
+    ----
+    2554887 pairs aligned concordantly 0 times; of these:
+      191608 (7.50%) aligned discordantly 1 time
+    ----
+    2363279 pairs aligned 0 times concordantly or discordantly; of these:
+      4726558 mates make up the pairs; of these:
+        2599137 (54.99%) aligned 0 times
+        1837926 (38.89%) aligned exactly 1 time
+        289495 (6.12%) aligned >1 times
+95.60% overall alignment rate
+[bam_sort_core] merging from 6 files and 4 in-memory blocks...
+SRR6671109 icin sayim yapiliyor...
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                                                                            ||
+||                           SRR6671109.bam                                   ||
+||                                                                            ||
+||             Output file : SRR6671109_counts.txt                            ||
+||                 Summary : SRR6671109_counts.txt.summary                    ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : Homo_sapiens.GRCh38.110.gtf (GTF)                ||
+||      Dir for temp files : results                                          ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.110.gtf ...                       ||
+||    Features : 1649677                                                      ||
+||    Meta-features : 62754                                                   ||
+||    Chromosomes/contigs : 47                                                ||
+||                                                                            ||
+|| Process BAM file SRR6671109.bam...                                         ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 66822292                                             ||
+||    Successfully assigned alignments : 42339172 (63.4%)                     ||
+||    Running time : 0.24 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "results/SRR6671109_coun  ||
+|| ts.txt.summary"                                                            ||
+||                                                                            ||
+\\============================================================================//
+
+SRR6671109 ham dosyalari siliniyor (yer acmak icin)...
+SRR6671109 TAMAMLANDI.
+SRR6671110 hizalaniyor...
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+32072702 reads; of these:
+  32072702 (100.00%) were paired; of these:
+    2803866 (8.74%) aligned concordantly 0 times
+    27326043 (85.20%) aligned concordantly exactly 1 time
+    1942793 (6.06%) aligned concordantly >1 times
+    ----
+    2803866 pairs aligned concordantly 0 times; of these:
+      205266 (7.32%) aligned discordantly 1 time
+    ----
+    2598600 pairs aligned 0 times concordantly or discordantly; of these:
+      5197200 mates make up the pairs; of these:
+        2886340 (55.54%) aligned 0 times
+        1983483 (38.16%) aligned exactly 1 time
+        327377 (6.30%) aligned >1 times
+95.50% overall alignment rate
+[bam_sort_core] merging from 7 files and 4 in-memory blocks...
+SRR6671110 icin sayim yapiliyor...
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                                                                            ||
+||                           SRR6671110.bam                                   ||
+||                                                                            ||
+||             Output file : SRR6671110_counts.txt                            ||
+||                 Summary : SRR6671110_counts.txt.summary                    ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : Homo_sapiens.GRCh38.110.gtf (GTF)                ||
+||      Dir for temp files : results                                          ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.110.gtf ...                       ||
+||    Features : 1649677                                                      ||
+||    Meta-features : 62754                                                   ||
+||    Chromosomes/contigs : 47                                                ||
+||                                                                            ||
+|| Process BAM file SRR6671110.bam...                                         ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 74375134                                             ||
+||    Successfully assigned alignments : 45188488 (60.8%)                     ||
+||    Running time : 0.26 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "results/SRR6671110_coun  ||
+|| ts.txt.summary"                                                            ||
+||                                                                            ||
+\\============================================================================//
+
+SRR6671110 ham dosyalari siliniyor (yer acmak icin)...
+SRR6671110 TAMAMLANDI.
+SRR6671111 hizalaniyor...
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+27635811 reads; of these:
+  27635811 (100.00%) were paired; of these:
+    2395730 (8.67%) aligned concordantly 0 times
+    23485623 (84.98%) aligned concordantly exactly 1 time
+    1754458 (6.35%) aligned concordantly >1 times
+    ----
+    2395730 pairs aligned concordantly 0 times; of these:
+      184960 (7.72%) aligned discordantly 1 time
+    ----
+    2210770 pairs aligned 0 times concordantly or discordantly; of these:
+      4421540 mates make up the pairs; of these:
+        2416704 (54.66%) aligned 0 times
+        1746596 (39.50%) aligned exactly 1 time
+        258240 (5.84%) aligned >1 times
+95.63% overall alignment rate
+[bam_sort_core] merging from 6 files and 4 in-memory blocks...
+SRR6671111 icin sayim yapiliyor...
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                                                                            ||
+||                           SRR6671111.bam                                   ||
+||                                                                            ||
+||             Output file : SRR6671111_counts.txt                            ||
+||                 Summary : SRR6671111_counts.txt.summary                    ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : Homo_sapiens.GRCh38.110.gtf (GTF)                ||
+||      Dir for temp files : results                                          ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.110.gtf ...                       ||
+||    Features : 1649677                                                      ||
+||    Meta-features : 62754                                                   ||
+||    Chromosomes/contigs : 47                                                ||
+||                                                                            ||
+|| Process BAM file SRR6671111.bam...                                         ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 64725632                                             ||
+||    Successfully assigned alignments : 39605622 (61.2%)                     ||
+||    Running time : 0.25 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "results/SRR6671111_coun  ||
+|| ts.txt.summary"                                                            ||
+||                                                                            ||
+\\============================================================================//
+
+SRR6671111 ham dosyalari siliniyor (yer acmak icin)...
+SRR6671111 TAMAMLANDI.
+SRR6671112 hizalaniyor...
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+25355277 reads; of these:
+  25355277 (100.00%) were paired; of these:
+    2273855 (8.97%) aligned concordantly 0 times
+    21573432 (85.08%) aligned concordantly exactly 1 time
+    1507990 (5.95%) aligned concordantly >1 times
+    ----
+    2273855 pairs aligned concordantly 0 times; of these:
+      163270 (7.18%) aligned discordantly 1 time
+    ----
+    2110585 pairs aligned 0 times concordantly or discordantly; of these:
+      4221170 mates make up the pairs; of these:
+        2326882 (55.12%) aligned 0 times
+        1652543 (39.15%) aligned exactly 1 time
+        241745 (5.73%) aligned >1 times
+95.41% overall alignment rate
+[bam_sort_core] merging from 5 files and 4 in-memory blocks...
+SRR6671112 icin sayim yapiliyor...
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                                                                            ||
+||                           SRR6671112.bam                                   ||
+||                                                                            ||
+||             Output file : SRR6671112_counts.txt                            ||
+||                 Summary : SRR6671112_counts.txt.summary                    ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : Homo_sapiens.GRCh38.110.gtf (GTF)                ||
+||      Dir for temp files : results                                          ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.110.gtf ...                       ||
+||    Features : 1649677                                                      ||
+||    Meta-features : 62754                                                   ||
+||    Chromosomes/contigs : 47                                                ||
+||                                                                            ||
+|| Process BAM file SRR6671112.bam...                                         ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 58668566                                             ||
+||    Successfully assigned alignments : 35351146 (60.3%)                     ||
+||    Running time : 0.22 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "results/SRR6671112_coun  ||
+|| ts.txt.summary"                                                            ||
+||                                                                            ||
+\\============================================================================//
+
+SRR6671112 ham dosyalari siliniyor (yer acmak icin)...
+SRR6671112 TAMAMLANDI.
+SRR6671113 hizalaniyor...
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+27156644 reads; of these:
+  27156644 (100.00%) were paired; of these:
+    2344343 (8.63%) aligned concordantly 0 times
+    23032728 (84.81%) aligned concordantly exactly 1 time
+    1779573 (6.55%) aligned concordantly >1 times
+    ----
+    2344343 pairs aligned concordantly 0 times; of these:
+      180976 (7.72%) aligned discordantly 1 time
+    ----
+    2163367 pairs aligned 0 times concordantly or discordantly; of these:
+      4326734 mates make up the pairs; of these:
+        2360092 (54.55%) aligned 0 times
+        1704464 (39.39%) aligned exactly 1 time
+        262178 (6.06%) aligned >1 times
+95.65% overall alignment rate
+[bam_sort_core] merging from 6 files and 4 in-memory blocks...
+SRR6671113 icin sayim yapiliyor...
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                                                                            ||
+||                           SRR6671113.bam                                   ||
+||                                                                            ||
+||             Output file : SRR6671113_counts.txt                            ||
+||                 Summary : SRR6671113_counts.txt.summary                    ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : Homo_sapiens.GRCh38.110.gtf (GTF)                ||
+||      Dir for temp files : results                                          ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.110.gtf ...                       ||
+||    Features : 1649677                                                      ||
+||    Meta-features : 62754                                                   ||
+||    Chromosomes/contigs : 47                                                ||
+||                                                                            ||
+|| Process BAM file SRR6671113.bam...                                         ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 63972448                                             ||
+||    Successfully assigned alignments : 38010115 (59.4%)                     ||
+||    Running time : 0.25 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "results/SRR6671113_coun  ||
+|| ts.txt.summary"                                                            ||
+||                                                                            ||
+\\============================================================================//
+
+SRR6671113 ham dosyalari siliniyor (yer acmak icin)...
+SRR6671113 TAMAMLANDI.
+SRR6671114 indiriliyor...
+2026-09-26T11:51:58 prefetch.3.4.1: 1) Resolving 'SRR6671114'...
+2026-09-26T11:52:00 prefetch.3.4.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-09-26T11:52:01 prefetch.3.4.1: 1) Downloading 'SRR6671114'...
+2026-09-26T11:52:01 prefetch.3.4.1:  SRA Normalized Format file is being retrieved
+2026-09-26T11:52:01 prefetch.3.4.1:  Downloading via HTTPS...
+2026-09-26T11:55:23 prefetch.3.4.1:  HTTPS download succeed
+2026-09-26T11:55:27 prefetch.3.4.1:  'SRR6671114' is valid: 3119987919 bytes were streamed from 3119982295
+2026-09-26T11:55:27 prefetch.3.4.1: 1) 'SRR6671114' was downloaded successfully
+spots read      : 30,711,899
+reads read      : 61,423,798
+reads written   : 61,423,798
+SRR6671114 hizalaniyor...
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+30711899 reads; of these:
+  30711899 (100.00%) were paired; of these:
+    2296653 (7.48%) aligned concordantly 0 times
+    26370621 (85.86%) aligned concordantly exactly 1 time
+    2044625 (6.66%) aligned concordantly >1 times
+    ----
+    2296653 pairs aligned concordantly 0 times; of these:
+      224855 (9.79%) aligned discordantly 1 time
+    ----
+    2071798 pairs aligned 0 times concordantly or discordantly; of these:
+      4143596 mates make up the pairs; of these:
+        2197959 (53.04%) aligned 0 times
+        1759116 (42.45%) aligned exactly 1 time
+        186521 (4.50%) aligned >1 times
+96.42% overall alignment rate
+[bam_sort_core] merging from 7 files and 4 in-memory blocks...
+SRR6671114 icin sayim yapiliyor...
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                                                                            ||
+||                           SRR6671114.bam                                   ||
+||                                                                            ||
+||             Output file : SRR6671114_counts.txt                            ||
+||                 Summary : SRR6671114_counts.txt.summary                    ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : Homo_sapiens.GRCh38.110.gtf (GTF)                ||
+||      Dir for temp files : results                                          ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.110.gtf ...                       ||
+||    Features : 1649677                                                      ||
+||    Meta-features : 62754                                                   ||
+||    Chromosomes/contigs : 47                                                ||
+||                                                                            ||
+|| Process BAM file SRR6671114.bam...                                         ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 73814435                                             ||
+||    Successfully assigned alignments : 44665417 (60.5%)                     ||
+||    Running time : 0.28 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "results/SRR6671114_coun  ||
+|| ts.txt.summary"                                                            ||
+||                                                                            ||
+\\============================================================================//
+
+SRR6671114 ham dosyalari siliniyor (yer acmak icin)...
+SRR6671114 TAMAMLANDI.
+SRR6671115 indiriliyor...
+2026-09-26T12:15:45 prefetch.3.4.1: 1) Resolving 'SRR6671115'...
+2026-09-26T12:15:47 prefetch.3.4.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-09-26T12:15:48 prefetch.3.4.1: 1) Downloading 'SRR6671115'...
+2026-09-26T12:15:48 prefetch.3.4.1:  SRA Normalized Format file is being retrieved
+2026-09-26T12:15:48 prefetch.3.4.1:  Downloading via HTTPS...
+2026-09-26T12:18:34 prefetch.3.4.1:  HTTPS download succeed
+2026-09-26T12:18:38 prefetch.3.4.1:  'SRR6671115' is valid: 3346429914 bytes were streamed from 3346425853
+2026-09-26T12:18:38 prefetch.3.4.1: 1) 'SRR6671115' was downloaded successfully
+spots read      : 32,561,028
+reads read      : 65,122,056
+reads written   : 65,122,056
+SRR6671115 hizalaniyor...
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+32561028 reads; of these:
+  32561028 (100.00%) were paired; of these:
+    2103550 (6.46%) aligned concordantly 0 times
+    26541250 (81.51%) aligned concordantly exactly 1 time
+    3916228 (12.03%) aligned concordantly >1 times
+    ----
+    2103550 pairs aligned concordantly 0 times; of these:
+      209712 (9.97%) aligned discordantly 1 time
+    ----
+    1893838 pairs aligned 0 times concordantly or discordantly; of these:
+      3787676 mates make up the pairs; of these:
+        1972471 (52.08%) aligned 0 times
+        1546439 (40.83%) aligned exactly 1 time
+        268766 (7.10%) aligned >1 times
+96.97% overall alignment rate
+[bam_sort_core] merging from 8 files and 4 in-memory blocks...
+SRR6671115 icin sayim yapiliyor...
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                                                                            ||
+||                           SRR6671115.bam                                   ||
+||                                                                            ||
+||             Output file : SRR6671115_counts.txt                            ||
+||                 Summary : SRR6671115_counts.txt.summary                    ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : Homo_sapiens.GRCh38.110.gtf (GTF)                ||
+||      Dir for temp files : results                                          ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.110.gtf ...                       ||
+||    Features : 1649677                                                      ||
+||    Meta-features : 62754                                                   ||
+||    Chromosomes/contigs : 47                                                ||
+||                                                                            ||
+|| Process BAM file SRR6671115.bam...                                         ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 92049352                                             ||
+||    Successfully assigned alignments : 43848784 (47.6%)                     ||
+||    Running time : 0.32 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "results/SRR6671115_coun  ||
+|| ts.txt.summary"                                                            ||
+||                                                                            ||
+\\============================================================================//
+
+SRR6671115 ham dosyalari siliniyor (yer acmak icin)...
+SRR6671115 TAMAMLANDI.
+SRR6671116 indiriliyor...
+2026-09-26T12:39:49 prefetch.3.4.1: 1) Resolving 'SRR6671116'...
+2026-09-26T12:39:52 prefetch.3.4.1: Current preference is set to retrieve SRA Normalized Format files with full base quality scores
+2026-09-26T12:39:52 prefetch.3.4.1: 1) Downloading 'SRR6671116'...
+2026-09-26T12:39:52 prefetch.3.4.1:  SRA Normalized Format file is being retrieved
+2026-09-26T12:39:52 prefetch.3.4.1:  Downloading via HTTPS...
+2026-09-26T12:42:47 prefetch.3.4.1:  HTTPS download succeed
+2026-09-26T12:42:52 prefetch.3.4.1:  'SRR6671116' is valid: 3476068769 bytes were streamed from 3476060497
+2026-09-26T12:42:52 prefetch.3.4.1: 1) 'SRR6671116' was downloaded successfully
+spots read      : 34,197,925
+reads read      : 68,395,850
+reads written   : 68,395,850
+SRR6671116 hizalaniyor...
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libtinfow.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+samtools: /home/atakan/miniconda3/envs/rnaseq/bin/../lib/libncursesw.so.6: no version information available (required by samtools)
+34197925 reads; of these:
+  34197925 (100.00%) were paired; of these:
+    1998406 (5.84%) aligned concordantly 0 times
+    29329710 (85.76%) aligned concordantly exactly 1 time
+    2869809 (8.39%) aligned concordantly >1 times
+    ----
+    1998406 pairs aligned concordantly 0 times; of these:
+      176949 (8.85%) aligned discordantly 1 time
+    ----
+    1821457 pairs aligned 0 times concordantly or discordantly; of these:
+      3642914 mates make up the pairs; of these:
+        1932932 (53.06%) aligned 0 times
+        1521867 (41.78%) aligned exactly 1 time
+        188115 (5.16%) aligned >1 times
+97.17% overall alignment rate
+[bam_sort_core] merging from 8 files and 4 in-memory blocks...
+SRR6671116 icin sayim yapiliyor...
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                                                                            ||
+||                           SRR6671116.bam                                   ||
+||                                                                            ||
+||             Output file : SRR6671116_counts.txt                            ||
+||                 Summary : SRR6671116_counts.txt.summary                    ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : Homo_sapiens.GRCh38.110.gtf (GTF)                ||
+||      Dir for temp files : results                                          ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.110.gtf ...                       ||
+||    Features : 1649677                                                      ||
+||    Meta-features : 62754                                                   ||
+||    Chromosomes/contigs : 47                                                ||
+||                                                                            ||
+|| Process BAM file SRR6671116.bam...                                         ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 86459247                                             ||
+||    Successfully assigned alignments : 49808485 (57.6%)                     ||
+||    Running time : 0.31 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "results/SRR6671116_coun  ||
+|| ts.txt.summary"                                                            ||
+||                                                                            ||
+\\============================================================================//
+
+SRR6671116 ham dosyalari siliniyor (yer acmak icin)...
+SRR6671116 TAMAMLANDI.
+TUM ORNEKLER ISLENDI.
