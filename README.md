@@ -1,54 +1,72 @@
-# Meme Kanseri RNA-seq Farkli Ekspresyon Analizi
+# Breast Cancer RNA-seq: Differential Expression Analysis
 
-## Amac
-Bu proje, bir meme kanseri hastasindan alinan invaziv duktal karsinom (Luminal B alt tipi) ve komsu normal doku orneklerinin RNA-seq verisini kullanarak tumor ve normal doku arasindaki farkli gen ekspresyonunu ve etkilenen biyolojik yolaklari analiz etmeyi amaclamaktadir.
+> 🇹🇷 **Türkçe özet:** Bir meme kanseri hastasına ait tümör (Luminal B, invaziv duktal karsinom) ve komşu normal doku RNA-seq verisiyle farklı gen ekspresyonu ve GO zenginleştirme analizi yapılmıştır. Yukarı regüle genlerde bağışıklık/T hücresi aktivasyonu öne çıkmış; bu bulgu orijinal yayınla (Hong et al., 2018) örtüşmektedir.
 
-## Veri Kaynagi
-- NCBI SRA, BioProject: PRJNA432903 (Hong et al., Data in Brief, 2018, DOI: 10.1016/j.dib.2018.03.079)
-- 10 tumor (C0-C9) + 3 normal bitisik doku (N1-N3) ornegi
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![HISAT2](https://img.shields.io/badge/aligner-HISAT2-blue) ![DESeq2](https://img.shields.io/badge/DE-PyDESeq2-green)
+
+## Objective
+
+Identify differentially expressed genes and affected biological pathways between tumour (invasive ductal carcinoma, Luminal B subtype) and adjacent normal tissue from a single breast cancer patient.
+
+## Data
+
+- **NCBI SRA BioProject:** [PRJNA432903](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA432903) (Hong et al., *Data in Brief*, 2018, DOI: [10.1016/j.dib.2018.03.079](https://doi.org/10.1016/j.dib.2018.03.079))
+- 10 tumour (C0–C9) + 3 adjacent normal (N1–N3) samples
 - Illumina HiSeq 2500, paired-end RNA-seq
 
-## Yontem
-1. Ham FASTQ verisi SRA Toolkit ile indirildi (prefetch, fasterq-dump)
-2. HISAT2 ile GRCh38 referans genomuna hizalama
-3. featureCounts (Subread) ile gen basina okuma sayimi
-4. PyDESeq2 ile tumor vs normal farkli ekspresyon analizi
-5. mygene ile Ensembl ID -> gen sembolu cevirisi
-6. gseapy (Enrichr, GO_Biological_Process_2021) ile fonksiyonel zenginlestirme analizi
-7. Volcano plot, PCA ve heatmap ile gorsellestirme
+## Pipeline
 
-## Kullanilan Araclar
-SRA Toolkit, HISAT2, Subread (featureCounts), Python (pandas, PyDESeq2, mygene, gseapy, matplotlib, seaborn, scikit-learn)
+```
+SRA (prefetch, fasterq-dump) → HISAT2 (GRCh38) → featureCounts → PyDESeq2 → mygene (Ensembl → symbol) → gseapy / Enrichr (GO BP 2021) → plots
+```
 
-## Sonuclar
+| Step | Tool | Script |
+|---|---|---|
+| Download | SRA Toolkit | `scripts/download_resume.sh` |
+| Alignment + counting | HISAT2, Subread featureCounts | `scripts/align_count_clean.sh` |
+| Count matrix | pandas | `scripts/build_matrix.py` |
+| Differential expression | PyDESeq2 | `scripts/run_deseq2.py` |
+| Annotation & plots | mygene, matplotlib, seaborn, scikit-learn | `scripts/analyze_and_plot.py` |
+| GO enrichment | gseapy (Enrichr) | `scripts/go_enrichment.py` |
 
-### Farkli ekspresyon
-- padj<0.05 ve |log2FoldChange|>1 kriterine gore 8971 anlamli farkli eksprese gen bulundu
-- En anlamli genler arasinda immunoglobulin genleri (IGHV3-43, IGLV3-19, IGKV1-27) ve T hucresi/lenfosit genleri (CD8A, TIGIT, LAX1, SLA2, CXCL13) yer almaktadir
+## Results
 
-### GO zenginlestirme
-- Yukari regule genler: bagisiklik tepkisi, T hucre aktivasyonu ve cogalmasi, interferon-gamma sinyali, B hucre reseptor sinyali gibi terimlerde guclu ve anlamli zenginlesme (adj. p < 1e-5)
-- Asagi regule genler: sadece "extracellular matrix assembly" terimi zayif da olsa anlamli (adj. p=0.0019) cikti, geri kalan terimler istatistiksel olarak anlamli degil
+### Differential expression
 
-### Orijinal calismayla karsilastirma
-Bu sonuclar, verinin orijinal yayinindaki (Hong et al., 2018) "lymphocyte activation" bulgusuyla bagimsiz olarak ortusmektedir; bu, analiz hattinin dogru calistigina dair guclu bir gostergedir.
+**8,971 significant genes** (padj < 0.05 and |log2FC| > 1). Top hits include immunoglobulin genes (*IGHV3-43*, *IGLV3-19*, *IGKV1-27*) and T cell / lymphocyte genes (*CD8A*, *TIGIT*, *LAX1*, *SLA2*, *CXCL13*).
 
-![Volcano Plot](figures/volcano_plot.png)
-![PCA Plot](figures/pca_plot.png)
-![Heatmap](figures/heatmap_top30.png)
+| Volcano plot | PCA |
+|---|---|
+| ![Volcano plot](figures/volcano_plot.png) | ![PCA](figures/pca_plot.png) |
 
-## Sinirliliklar
-- Tum orneklerin tek bir hastadan alinmis olmasi, sonuclarin genellenebilirligini sinirlamaktadir (bireysel varyasyon kontrol edilememektedir)
-- Orijinal yayinda C3 orneginin dusuk kalitede (TIN skoru 59.6) oldugu belirtilmistir; bu analiz C3'u disarida birakmadan calistirilmistir
-- Asagi regule genlerde net, tutarli bir biyolojik yolak bulunamamistir; bu durum ornek sayisinin veya etki buyuklugunun sinirli olmasindan kaynaklaniyor olabilir
-- Bu bir portfoy/ogrenme projesidir, klinik karar alma icin kullanilamaz
+![Heatmap of top 30 genes](figures/heatmap_top30.png)
 
-## Proje Yapisi
-rnaseq-meme-kanseri/
-- raw_data/  : SRR listesi, calisma bilgisi, metadata
-- scripts/   : Tum analiz scriptleri
-- results/   : Sayim matrisi, DESeq2 sonuclari, GO analizi
-- figures/   : Volcano plot, PCA, heatmap
+### GO enrichment
 
-## Yazar
-Atakan Aslan - Molekuler Biyoloji ve Genetik, Sivas Cumhuriyet Universitesi
+- **Up-regulated genes:** strong enrichment for immune response, T cell activation and proliferation, interferon-gamma signalling and B cell receptor signalling (adj. p < 1e-5)
+- **Down-regulated genes:** only *extracellular matrix assembly* was significant (adj. p = 0.0019); other terms were not significant
+
+### Comparison with the original study
+
+These results independently agree with the *lymphocyte activation* finding reported in the original publication, which supports that the pipeline works correctly.
+
+## Repository Structure
+
+```
+rnaseq-meme-kanseri-analizi/
+├── raw_data/   # SRR list, run info, metadata (FASTQ files not included)
+├── scripts/    # all analysis scripts
+├── results/    # count matrix, DESeq2 results, GO tables, alignment summaries
+└── figures/    # volcano plot, PCA, heatmap
+```
+
+## Limitations
+
+- All samples come from a single patient, so inter-individual variation cannot be controlled and results do not generalise.
+- The original paper reports low quality for sample C3 (TIN score 59.6); this analysis kept C3.
+- No clear, consistent pathway emerged among down-regulated genes, possibly due to sample size or effect size.
+- This is a learning/portfolio project and must not be used for clinical decisions.
+
+## Author
+
+**Atakan Aslan** · Molecular Biology and Genetics, Sivas Cumhuriyet University
