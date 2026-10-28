@@ -1,7 +1,5 @@
 # Breast Cancer RNA-seq: Differential Expression Analysis
 
-> 🇹🇷 **Türkçe özet:** Bir meme kanseri hastasına ait tümör (Luminal B, invaziv duktal karsinom) ve komşu normal doku RNA-seq verisiyle farklı gen ekspresyonu ve GO zenginleştirme analizi yapılmıştır. Yukarı regüle genlerde bağışıklık/T hücresi aktivasyonu öne çıkmış; bu bulgu orijinal yayınla (Hong et al., 2018) örtüşmektedir.
-
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![HISAT2](https://img.shields.io/badge/aligner-HISAT2-blue) ![DESeq2](https://img.shields.io/badge/DE-PyDESeq2-green)
 
 ## Objective
